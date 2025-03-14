@@ -41,3 +41,18 @@
   subclasses Quadrado e Circulo, cada uma com a implementação apropriada do
   método calcularArea(). No método main, crie uma lista de Formas, adicione
   objetos de Quadrado e Circulo, e calcule as áreas usando polimorfismo.
+
+- [Exercício 09](https://github.com/Lucas-Viesan/Exercicios-Java-POO/tree/main/Exercicio09/src) - Crie uma classe Funcionario com um método calcularSalario() que
+  retorna um valor base. Crie a subclasse Gerente que sobrescreva o método
+  calcularSalario() para adicionar um bônus. No método main, crie objetos de
+  Funcionario e Gerente, e calcule os salários.
+
+- [Exercício 10](https://github.com/Lucas-Viesan/Exercicios-Java-POO/tree/main/Exercicio10/src) - Crie uma classe abstrata ContaBancaria com métodos abstratos
+  depositar(double valor) e sacar(double valor). Crie as subclasses
+  ContaCorrente e ContaPoupanca com implementações específicas desses
+  métodos. No método main, crie objetos de ambas as classes e realize operações
+  bancárias.
+
+- [Exercício 11](https://github.com/Lucas-Viesan/Exercicios-Java-POO/tree/main/Exercicio11/src) - Crie uma interface Pagavel com um método pagar(). Implemente essa interface nas classes Funcionario e Fornecedor. No método main, crie uma lista de
+  Pagavel e adicione objetos de Funcionario e Fornecedor, e use polimorfismo
+  para chamar o método pagar()
